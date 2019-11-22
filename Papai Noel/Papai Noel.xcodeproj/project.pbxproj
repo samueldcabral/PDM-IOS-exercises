@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14C2ABA223885B0C00E3E90C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C2ABA123885B0C00E3E90C /* AppDelegate.swift */; };
+		14C2ABA423885B0C00E3E90C /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C2ABA323885B0C00E3E90C /* FormViewController.swift */; };
+		14C2ABA723885B0C00E3E90C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14C2ABA523885B0C00E3E90C /* Main.storyboard */; };
+		14C2ABA923885B0F00E3E90C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14C2ABA823885B0F00E3E90C /* Assets.xcassets */; };
+		14C2ABAC23885B1000E3E90C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14C2ABAA23885B1000E3E90C /* LaunchScreen.storyboard */; };
+		14C2ABB723885C4900E3E90C /* Presente.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C2ABB623885C4900E3E90C /* Presente.swift */; };
+		14C2ABB923885D8000E3E90C /* Cadastro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C2ABB823885D8000E3E90C /* Cadastro.swift */; };
+		14C2ABBB238865C700E3E90C /* PresenteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C2ABBA238865C700E3E90C /* PresenteTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		14C2AB9E23885B0C00E3E90C /* Papai Noel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Papai Noel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14C2ABA123885B0C00E3E90C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		14C2ABA323885B0C00E3E90C /* FormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
+		14C2ABA623885B0C00E3E90C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		14C2ABA823885B0F00E3E90C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14C2ABAB23885B1000E3E90C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		14C2ABAD23885B1000E3E90C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14C2ABB623885C4900E3E90C /* Presente.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presente.swift; sourceTree = "<group>"; };
+		14C2ABB823885D8000E3E90C /* Cadastro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cadastro.swift; sourceTree = "<group>"; };
+		14C2ABBA238865C700E3E90C /* PresenteTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresenteTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14C2AB9B23885B0C00E3E90C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14C2AB9523885B0C00E3E90C = {
+			isa = PBXGroup;
+			children = (
+				14C2ABA023885B0C00E3E90C /* Papai Noel */,
+				14C2AB9F23885B0C00E3E90C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14C2AB9F23885B0C00E3E90C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14C2AB9E23885B0C00E3E90C /* Papai Noel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14C2ABA023885B0C00E3E90C /* Papai Noel */ = {
+			isa = PBXGroup;
+			children = (
+				14C2ABB323885B2100E3E90C /* model */,
+				14C2ABB523885B3D00E3E90C /* view */,
+				14C2ABB423885B3400E3E90C /* controller */,
+				14C2ABA123885B0C00E3E90C /* AppDelegate.swift */,
+				14C2ABA823885B0F00E3E90C /* Assets.xcassets */,
+				14C2ABAA23885B1000E3E90C /* LaunchScreen.storyboard */,
+				14C2ABAD23885B1000E3E90C /* Info.plist */,
+			);
+			path = "Papai Noel";
+			sourceTree = "<group>";
+		};
+		14C2ABB323885B2100E3E90C /* model */ = {
+			isa = PBXGroup;
+			children = (
+				14C2ABB623885C4900E3E90C /* Presente.swift */,
+				14C2ABB823885D8000E3E90C /* Cadastro.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		14C2ABB423885B3400E3E90C /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				14C2ABA323885B0C00E3E90C /* FormViewController.swift */,
+				14C2ABBA238865C700E3E90C /* PresenteTableViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		14C2ABB523885B3D00E3E90C /* view */ = {
+			isa = PBXGroup;
+			children = (
+				14C2ABA523885B0C00E3E90C /* Main.storyboard */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14C2AB9D23885B0C00E3E90C /* Papai Noel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14C2ABB023885B1000E3E90C /* Build configuration list for PBXNativeTarget "Papai Noel" */;
+			buildPhases = (
+				14C2AB9A23885B0C00E3E90C /* Sources */,
+				14C2AB9B23885B0C00E3E90C /* Frameworks */,
+				14C2AB9C23885B0C00E3E90C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Papai Noel";
+			productName = "Papai Noel";
+			productReference = 14C2AB9E23885B0C00E3E90C /* Papai Noel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14C2AB9623885B0C00E3E90C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = IFPB;
+				TargetAttributes = {
+					14C2AB9D23885B0C00E3E90C = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 14C2AB9923885B0C00E3E90C /* Build configuration list for PBXProject "Papai Noel" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14C2AB9523885B0C00E3E90C;
+			productRefGroup = 14C2AB9F23885B0C00E3E90C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14C2AB9D23885B0C00E3E90C /* Papai Noel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14C2AB9C23885B0C00E3E90C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14C2ABAC23885B1000E3E90C /* LaunchScreen.storyboard in Resources */,
+				14C2ABA923885B0F00E3E90C /* Assets.xcassets in Resources */,
+				14C2ABA723885B0C00E3E90C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14C2AB9A23885B0C00E3E90C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14C2ABA423885B0C00E3E90C /* FormViewController.swift in Sources */,
+				14C2ABBB238865C700E3E90C /* PresenteTableViewController.swift in Sources */,
+				14C2ABB723885C4900E3E90C /* Presente.swift in Sources */,
+				14C2ABB923885D8000E3E90C /* Cadastro.swift in Sources */,
+				14C2ABA223885B0C00E3E90C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		14C2ABA523885B0C00E3E90C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14C2ABA623885B0C00E3E90C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		14C2ABAA23885B1000E3E90C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14C2ABAB23885B1000E3E90C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14C2ABAE23885B1000E3E90C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		14C2ABAF23885B1000E3E90C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14C2ABB123885B1000E3E90C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Papai Noel/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.edu.ifpb.Papai-Noel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		14C2ABB223885B1000E3E90C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Papai Noel/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.edu.ifpb.Papai-Noel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14C2AB9923885B0C00E3E90C /* Build configuration list for PBXProject "Papai Noel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14C2ABAE23885B1000E3E90C /* Debug */,
+				14C2ABAF23885B1000E3E90C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14C2ABB023885B1000E3E90C /* Build configuration list for PBXNativeTarget "Papai Noel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14C2ABB123885B1000E3E90C /* Debug */,
+				14C2ABB223885B1000E3E90C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14C2AB9623885B0C00E3E90C /* Project object */;
+}
